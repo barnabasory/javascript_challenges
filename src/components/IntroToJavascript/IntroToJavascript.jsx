@@ -27,7 +27,6 @@ const IntroToJavascipt = () => {
         <div className={styles.image_div}>
           <img src={challenge1} alt="javascript_challenge" />
         </div>
-
         <div className={styles.try_this}></div>
         <ul className={styles.data_types}>
           <p>
@@ -46,7 +45,10 @@ const IntroToJavascipt = () => {
                 {tile.title} :
               </b>
               {tile.info}
-              <span>Example: {tile.example}</span>
+              <code>
+                <em>Example: </em>
+                {tile.example}
+              </code>
             </li>
           ))}
 

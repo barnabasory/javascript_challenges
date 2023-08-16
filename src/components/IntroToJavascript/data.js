@@ -22,19 +22,12 @@ const primitiveData = [
     id: 4,
     title: "Null",
     info: `Represents the intentional absence of any value or object. It's often used to indicate an empty or non-existent value.`,
-    example: `let data = null
+    example: `let data = null;
     `,
   },
   {
     id: 5,
     title: "Symbol",
-    info: `Introduced in ECMAScript 6, symbols are unique and immutable values, often used as keys for object properties.`,
-    example: `const uniqueKey = Symbol("description");
-    `,
-  },
-  {
-    id: 5,
-    title: "Date",
     info: `Introduced in ECMAScript 6, symbols are unique and immutable values, often used as keys for object properties.`,
     example: `const uniqueKey = Symbol("description");
     `,
