@@ -46,7 +46,7 @@ const IntroToJavascipt = () => {
             </span>
             <b>Primitive data types and Reference data types.</b>
           </p>
-          <h3>Primitive Data Types :</h3>
+          <h3>Primitive Data Types : They only take a single value.</h3>
           {primitiveData.map((tile) => (
             <li className={styles.data_type}>
               <b>
