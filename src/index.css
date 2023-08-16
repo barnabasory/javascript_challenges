@@ -16,6 +16,7 @@ body {
   background-color: var(--bg-color);
   color: var(--color);
   font-family: "Roboto";
+  font-size: 19px;
 }
 
 .sw {
