@@ -7,7 +7,7 @@
 
 :root {
   --color: #fff;
-  --bg-color: rgb(23, 39, 69);
+  --bg-color: rgb(7, 15, 31);
   --antiquewhite: antiquewhite;
   --antiquehover: rgb(253, 253, 253);
 }
@@ -34,4 +34,17 @@ h2 {
   font-size: clamp(27px, 4vw, 35px);
   font-weight: 700;
   text-align: center;
+}
+
+a {
+  text-decoration: unset;
+  color: unset;
+}
+
+code {
+  font-size: 16px;
+}
+
+img {
+  border-radius: 10px;
 }

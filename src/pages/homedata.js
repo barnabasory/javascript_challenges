@@ -2,6 +2,7 @@ const data = [
   {
     id: 1,
     title: "Intro to JavaScript",
+    link: "/intro-to-javascript",
     cha: "Create a function that takes two numbers as parameters and returns their sum.",
     chb: "Write a program to determine if a given number is prime or not",
     chc: "Develop a simple web page that prompts the user for their name and displays a personalized greeting.",

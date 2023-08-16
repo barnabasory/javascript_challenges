@@ -1,5 +1,6 @@
 import styles from "./HomePage.module.scss";
 import data from "../homedata";
+import { Link } from "react-router-dom";
 
 const HomePage = () => {
   return (
@@ -11,7 +12,9 @@ const HomePage = () => {
       <div className={styles.infos}>
         {data.map((tile) => (
           <section className={styles.info}>
-            <b>{tile.title}:</b>
+            <b>
+              <Link to={tile.link}>{tile.title}: </Link>
+            </b>
             <code>
               <span>- {tile.cha}</span>
               <span>- {tile.chb}</span>
