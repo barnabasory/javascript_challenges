@@ -20,6 +20,7 @@ const HomePage = () => {
               <span>- {tile.chb}</span>
               <span>- {tile.chc}</span>
             </code>
+            and many more........
           </section>
         ))}
       </div>
