@@ -36,6 +36,7 @@ const IntroToJavascipt = () => {
             <span> console.log(typeof Symbol() === "_______");</span>
           </code>
         </div>
+        <h2>Learn More about Data Types</h2>
         <ul className={styles.data_types}>
           <p>
             <span>

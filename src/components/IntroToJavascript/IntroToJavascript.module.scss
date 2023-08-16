@@ -37,6 +37,13 @@
     }
   }
 
+  h2 {
+    display: flex;
+    align-self: flex-start;
+    text-decoration: underline;
+    padding-top: 100px;
+  }
+
   .image_div {
     display: flex;
     align-items: center;
