@@ -28,7 +28,7 @@ const IntroToJavascipt = () => {
           <img src={challenge1} alt="javascript_challenge" />
         </div>
         <div className={styles.try_this}>
-          <h2>Try this</h2>
+          <span className={styles.try_this_header}>Try this</span>
           <code>
             <span>/* === * * Challenge 1 * * === */ </span>
             <span>console.log(typeof false === "_______");</span>{" "}
@@ -46,7 +46,7 @@ const IntroToJavascipt = () => {
             </span>
             <b>Primitive data types and Reference data types.</b>
           </p>
-          <h3>Primitive Data Types:</h3>
+          <h3>Primitive Data Types :</h3>
           {primitiveData.map((tile) => (
             <li className={styles.data_type}>
               <b>
