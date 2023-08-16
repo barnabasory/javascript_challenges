@@ -58,6 +58,10 @@
       display: flex;
       flex-direction: column;
       gap: 20px;
+
+      span {
+        max-width: 60%;
+      }
       b {
         text-decoration: underline;
         padding-bottom: 30px;
@@ -89,6 +93,146 @@
         border-radius: 4px;
         width: 40%;
       }
+    }
+  }
+
+  .try_this {
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+    code {
+      display: flex;
+      text-align: center;
+      flex-direction: column;
+      gap: 20px;
+    }
+    background-color: white;
+    padding: 20px;
+    max-width: 70%;
+    margin: auto;
+    color: var(--bg-color);
+    border-radius: 4px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .wrapper {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+
+    .challenge {
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+
+      .heading {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        h2 {
+          display: flex;
+        }
+
+        span {
+          font-size: 20px;
+        }
+      }
+    }
+
+    .actual_code {
+      background-color: white;
+      color: var(--bg-color);
+      max-width: 100%;
+      margin: auto;
+      padding: 20px;
+      border-radius: 4px;
+
+      code {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+    }
+
+    .image_div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      align-self: center;
+      border-radius: 10px;
+
+      img {
+        max-width: 80%;
+        border: 1px solid white;
+      }
+    }
+
+    .data_types {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      p {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        b {
+          text-decoration: underline;
+          padding-bottom: 30px;
+        }
+      }
+      .data_type {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        b {
+          display: flex;
+          align-items: center;
+          color: white;
+          gap: 10px;
+          .bullet {
+            background-color: white;
+            height: 10px;
+            width: 10px;
+            border-radius: 50%;
+          }
+        }
+
+        span {
+          text-align: left;
+        }
+
+        code {
+          display: flex;
+          gap: 5px;
+          background-color: white;
+          color: var(--bg-color);
+          padding: 10px;
+          border-radius: 4px;
+          width: 100%;
+        }
+      }
+    }
+
+    .try_this {
+      display: flex;
+      flex-direction: column;
+
+      gap: 10px;
+      code {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        gap: 20px;
+      }
+      background-color: white;
+      padding: 20px;
+      max-width: 100%;
+      margin: auto;
+      color: var(--bg-color);
+      border-radius: 4px;
     }
   }
 }

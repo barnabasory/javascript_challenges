@@ -27,7 +27,15 @@ const IntroToJavascipt = () => {
         <div className={styles.image_div}>
           <img src={challenge1} alt="javascript_challenge" />
         </div>
-        <div className={styles.try_this}></div>
+        <div className={styles.try_this}>
+          <h2>Try this</h2>
+          <code>
+            <span>/* === * * Challenge 1 * * === */ </span>
+            <span>console.log(typeof false === "_______");</span>{" "}
+            <span>console.log(typeof "Javascript" === "_______");</span>{" "}
+            <span> console.log(typeof Symbol() === "_______");</span>
+          </code>
+        </div>
         <ul className={styles.data_types}>
           <p>
             <span>
@@ -44,7 +52,7 @@ const IntroToJavascipt = () => {
                 <div className={styles.bullet}></div>
                 {tile.title} :
               </b>
-              {tile.info}
+              <span> {tile.info}</span>
               <code>
                 <em>Example: </em>
                 {tile.example}
